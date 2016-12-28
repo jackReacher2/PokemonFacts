@@ -57,7 +57,7 @@ $(document).ready(function() {
 		var uriLink = encodeURIComponent(quotes[i]);
 	
 	$(".tweeter").click(function(){ 
-  	window.open("https://twitter.com/intent/tweet?text="+uriLink+"&url=http://www.rahulxsharma.com/PokeFacts/", "_blank");
+  	window.open("https://twitter.com/intent/tweet?text="+uriLink, "_blank");
 	});
     });
 	
